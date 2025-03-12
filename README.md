@@ -7,4 +7,4 @@
 [![asciinema](https://asciinema.org/a/knPhbYVYajOMI81cFh2JyE27b.svg)](https://asciinema.org/a/knPhbYVYajOMI81cFh2JyE27b)
 
 # Демонстрация запуска и процесса игры brain-gcd (НОД)
-[![asciinema](https://asciinema.org/a/pLPbdluGQsC5fvEgWAgre9YX4.svg)](https://asciinema.org/a/pLPbdluGQsC5fvEgWAgre9YX4)
+[![asciinema](https://asciinema.org/a/VvW8MDHlkmCM2iDKKBuzDubhO.svg)](https://asciinema.org/a/VvW8MDHlkmCM2iDKKBuzDubhO)

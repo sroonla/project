@@ -8,7 +8,8 @@ packages = ["brain_games"]
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Набор мини-игр для тренировки логики"
+authors = ["sroonla <https://github.com/sroonla>"]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -23,7 +24,10 @@ brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
-[dependency-groups]
-dev = [
+[tool.hatch.metadata]
+license = "MIT"
+
+[tool.hatch.envs.dev.dependencies]
+dependencies = [
     "ruff>=0.9.10",
 ]

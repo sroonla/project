@@ -11,3 +11,6 @@
 
 # Демонстрация запуска и процесса игры "Арифметическая прогрессия"
 [![asciinema](https://asciinema.org/a/QXxPegoHokyY803vfG8rEBWo4.svg)](https://asciinema.org/a/QXxPegoHokyY803vfG8rEBWo4)
+
+# Демонстрация запуска и процесса игры "Простое ли число?"
+[![asciinema](https://asciinema.org/a/cLjGXuzy2iHRBucaYaLqbVt4Q.svg)](https://asciinema.org/a/cLjGXuzy2iHRBucaYaLqbVt4Q)

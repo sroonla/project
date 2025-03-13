@@ -1,5 +1,7 @@
 import random
 
+RULE = "What is the result of the expression?"
+
 OPERATORS = ['+', '-', '*']
 MIN_NUMBER = 1
 MAX_NUMBER = 20

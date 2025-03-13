@@ -21,7 +21,7 @@ def get_question_and_answer():
 game = type("Game", (), {"get_question_and_answer": get_question_and_answer})
 
 def main():
-    run_game(game)  # Передаём объект, а не функцию
+    run_game(RULE, get_question_and_answer)
 
 if __name__ == "__main__":
     main()

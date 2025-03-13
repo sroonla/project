@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
+
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Набор мини-игр для тренировки логики"
+authors = ["sroonla <https://github.com/sroonla>"]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prompt>=0.4.1",
+]
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
+
+[tool.hatch.metadata]
+license = "MIT"
+
+[tool.hatch.envs.dev.dependencies]
+dependencies = [
+    "ruff>=0.9.10",
+]

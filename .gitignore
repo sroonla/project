@@ -1,1 +1,26 @@
-.venv
+# Виртуальное окружение
+.venv/
+venv/
+
+# Файлы кеша Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Логи
+*.log
+
+# Установочные артефакты
+dist/
+build/
+*.egg-info/
+
+# Конфигурационные файлы IDE
+.vscode/
+.idea/
+
+# Разное
+.DS_Store
+*.swp
+vscode-server-linux-x64.tar.gz

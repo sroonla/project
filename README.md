@@ -8,3 +8,6 @@
 
 # Демонстрация запуска и процесса игры brain-gcd (НОД)
 [![asciinema](https://asciinema.org/a/VvW8MDHlkmCM2iDKKBuzDubhO.svg)](https://asciinema.org/a/VvW8MDHlkmCM2iDKKBuzDubhO)
+
+# Демонстрация запуска и процесса игры "Арифметическая прогрессия"
+[![asciinema](https://asciinema.org/a/QXxPegoHokyY803vfG8rEBWo4.svg)](https://asciinema.org/a/QXxPegoHokyY803vfG8rEBWo4)

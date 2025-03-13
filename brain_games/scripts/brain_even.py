@@ -1,12 +1,13 @@
 import random
+
 import prompt
 
 
-def is_even(number): # Проверка на четность-нечетность
+def is_even(number):  # Проверка на четность-нечетность
     return number % 2 == 0
 
 
-def play_even_game(): # Логика игры
+def play_even_game():  # Логика игры
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
@@ -15,7 +16,7 @@ def play_even_game(): # Логика игры
     correct_answers = 0
 
     while correct_answers < 3:
-        number = random.randint(1, 100) # Генерируем случайное число
+        number = random.randint(1, 100)  # Генерируем случайное число
         print(f"Question: {number}")
         answer = prompt.string("Your answer: ").strip().lower()
 
@@ -25,7 +26,8 @@ def play_even_game(): # Логика игры
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. ")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 

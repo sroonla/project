@@ -1,8 +1,8 @@
-import random
 import math
+import random
 
 
-def find_gcd(a, b): # Вычисляет наибольший общий делитель двух чисел.
+def find_gcd(a, b):   # Вычисляет наибольший общий делитель двух чисел.
     return math.gcd(a, b)
 
 
@@ -25,7 +25,8 @@ def main():
         if user_answer.isdigit() and int(user_answer) == correct_answer:
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. ")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return  # Завершает игру при ошибке
 
